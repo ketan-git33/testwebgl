@@ -63,13 +63,9 @@
     var config = {
       dataUrl: buildUrl + "/build.data.unityweb",
       frameworkUrl: buildUrl + "/build.framework.js.unityweb",
-        codeUrl: buildUrl + "/build.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-      companyName: "Test WebGL",
-    productName: { { { JSON.stringify(PRODUCT_NAME) } } },
-    productVersion: { { { JSON.stringify(PRODUCT_VERSION) } } },
-    showBanner: unityShowBanner,
-      };
+      codeUrl: buildUrl + "/build.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets"
+    };
 
     // By default Unity keeps WebGL canvas render target size matched with
     // the DOM size of the canvas element (scaled by window.devicePixelRatio)
